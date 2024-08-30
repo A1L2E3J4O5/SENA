@@ -1,0 +1,41 @@
+body
+{
+    display: grid 1fr,1fr;
+}
+
+.c1
+{
+    border: 1px black solid; 
+    background-color: rgb(238, 79, 105);
+    color: white;
+}
+.c2
+{
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+    height: 50vh; 
+ 
+}
+
+.container2 {
+    margin-right: 5%;
+    border-radius: 5%;
+    padding: 2%;
+    }
+
+.container3 {
+margin-right: 5%;
+border-radius: 5%;
+padding: 2%;
+}
+
+.container4
+{
+    border-radius: 5%;
+    padding: 2%;
+}
+
+
+
+    

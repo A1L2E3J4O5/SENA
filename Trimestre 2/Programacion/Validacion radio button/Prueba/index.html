@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CEET Regional Bogotá</title>
+<link rel="stylesheet" href="index.css">
+    <!--Sweet Alert-->
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+<div class="container my-5">
+    <form name="MiForm" id="MiForm" onSubmit="return validar()">
+        <table border="0" align="center" id="MiTabla">
+            <tr>
+                <td align="right">* Nombres</td>
+                <td><input type="text" placeholder="Ingrese Nombres" size="30" name="Nom" id="Nom"></td>
+                <td>* Apellidos</td>
+                <td><input type="text" size="30" placeholder="Ingrese Apellidos" name="Ape" id="Ape"></td>
+            </tr>
+            <tr>
+                <td align="right">* Correo electronico</td>
+                <td><input type="email" placeholder="email" size="30"></td>
+                <td>* Contraseña</td>
+                <td><input type="password" size="30" placeholder="Ingrese Contraseña"></td>
+            </tr>
+            <tr>
+                <td rowspan="3" align="right">* Género </td>
+                <td>Femenino <input type="radio" name="ElGenero" id="fem"></td>
+            </tr>
+            <tr>
+                <td>Masculino <input type="radio" name="ElGenero" id="mas"></td>
+            </tr>
+            <tr>
+                <td>Otro<input type="radio" name="ElGenero" id="otro"></td>
+            </tr>
+            <tr>
+                <td  colspan="4" align="center"><input type="submit" name="boton" value="Enviar"></td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>

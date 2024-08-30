@@ -1,0 +1,10 @@
+table{
+    border: solid 5px;
+}
+
+body
+{
+    background-color: rgb(255, 166, 0);
+    border-radius: 30px;
+    display: flex;
+}

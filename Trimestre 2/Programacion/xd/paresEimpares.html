@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let pares=0;impares=0;sumP=0;sumImp=0;prom=0;a=0,b=0;
+        let sum = 0;
+        var promB;
+        var promE;
+        for(let f = 1; f <= 10; f++)
+            {
+                if (f % 2==0) {
+                    sumP = sumP +f;
+                    pares = pares +1;
+                }else{
+                    sumImp = sumImp +f;
+                    impares = impares +1;
+                }
+                prom = (sumP+sumImp)/(pares+impares);
+                for(let a = 1; a <= prom;a++)
+                    {
+                        promB = a;
+
+                    }
+                for(let b = prom; b <= f+1;b++)
+                    {
+                        promE=b;
+                    }
+            }
+        document.write("La totalidad de pares es: "+ pares+"<br>")
+        document.write("La totalidad de impares es: "+ impares+"<br>")
+        document.write("La sumatoria de pares es: "+ sumP+"<br>")
+        document.write("La sumatoria de impares es: "+ sumImp+"<br>")
+        document.write("El promedio es: "+prom+"<br>");
+        document.write("Estos numeros estan por bajo del promedio: "+promB+"<br>")
+        document.write("Estos numeros estan por encima del promedio: "+promE)
+    </script>   
+</body>
+</html>

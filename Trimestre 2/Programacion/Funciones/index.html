@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejemplo de JavaScript</title>
+        <meta charset="UTF-8">
+    </head>
+<body>
+    
+    <script>
+        let valor = parseInt(prompt("Ingrese un valor entre 1 y 5"));
+        var z = ""
+
+        function convertirCastellano(x)
+        {
+            switch (x) {
+                case 1:
+                    z = "Uno";
+                    break;
+                case 2:
+                    z ="Dos";
+                    break;
+                case 3:
+                   z ="Tres";
+                    break;
+                case 4: 
+                    z ="Cuatro";
+                    break;
+                case 5: 
+                    z ="Cinco";
+                    break;
+                default:
+                    z ="Valor incorrecto"
+                    break;
+            }
+        }
+let r = convertirCastellano(valor);
+document.write(z);
+</script>
+
+</body>
+
+</html>

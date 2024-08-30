@@ -1,0 +1,29 @@
+body
+{
+    background: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#MiTabla {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #MiTabla td, #MiTabla {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  #MiTabla tr:nth-child(even){background-color: #454545;}
+  
+  #MiTabla {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #454545;
+    color: white;
+    width: 70%;
+  }

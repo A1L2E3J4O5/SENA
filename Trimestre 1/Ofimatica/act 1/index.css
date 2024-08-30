@@ -1,0 +1,20 @@
+h1
+{
+    display: flex;
+    color: rgb(104, 81, 81);
+    align-content: center;
+}
+
+p{
+    justify-content: center;
+}
+
+img
+{
+    height: 340px;
+}
+
+a
+{
+    font-size:xx-large;
+}

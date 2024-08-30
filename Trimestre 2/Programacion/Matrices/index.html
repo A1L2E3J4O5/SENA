@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>registro ingreso SENA</h1>
+    <form>
+        <label for="opc">Ingrese el ID del estudiante:</label>
+        <input type="text" id="opc" name="opc">
+        <button type="button" onclick="validar()">Calcular Promedio</button>
+        <br><br>
+    
+        <label for="nombre">Nombre del Estudiante:</label>
+        <input type="text" id="nombre" name="nombre" readonly>
+        <br><br>
+    
+        <label for="programa">Programa Académico:</label>
+        <input type="text" id="programa" name="programa" readonly>
+        <br><br>
+    
+        <label for="semestre">Semestre:</label>
+        <input type="text" id="semestre" name="semestre" readonly>
+        <br><br>
+    
+        <label for="promedio">Promedio:</label>
+        <input type="text" id="promedio" name="promedio" readonly>
+        <br><br>
+    
+        <label for="resultado">Resultado:</label>
+        <input type="text" id="resultado" name="resultado" readonly>
+
+        <button type="button" onclick="borrar()">Reiniciar</button>
+        <br><br>
+    </form> 
+    <script src="index.js"></script>
+</body>
+</html>
